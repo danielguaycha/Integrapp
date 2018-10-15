@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Integrapp Admin</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="../../plantillas/css/admin.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="hold-transition skin-blue sidebar-mini sidebar-collapse">
+    <div class="wrapper">
+
+      <!-- **************************** HEADER BARRA DE MENU SUPERIOR **************************** -->
+      <header class="main-header">
+
+        <!-- Logo -->
+        <a href="index2.html" class="logo">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span class="logo-mini"><b>I</b></span>
+          <!-- logo for regular state and mobile devices -->
+          <span class="logo-lg">Integrapp</span>
+        </a>
+
+        <!-- Header Navbar -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <!-- Navbar Right Menu -->
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <!-- Messages: style can be found in dropdown.less-->
+              <li class="dropdown messages-menu">
+                <!-- Menu toggle button -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-envelope-o"></i>
+                  <span class="label label-danger">4</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">You have 4 messages</li>
+                  <li>
+                    <!-- inner menu: contains the messages -->
+                    <ul class="menu">
+                      <li><!-- start message -->
+                        <a href="#">
+                          <div class="pull-left">
+                            <!-- User Image -->
+                            <i class="menu-icon fa fa-envelope-o"></i>
+                          </div>
+                          <!-- Message title and timestamp -->
+                          <h4>
+                            Support Team
+                            <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                          </h4>
+                          <!-- The message -->
+                          <p>Why not buy a new awesome theme?</p>
+                        </a>
+                      </li><!-- end message -->
+                    </ul><!-- /.menu -->
+                  </li>
+                  <li class="footer"><a href="#">See All Messages</a></li>
+                </ul>
+              </li><!-- /.messages-menu -->
+
+              <!-- Notifications Menu -->
+              <li class="dropdown notifications-menu">
+                <!-- Menu toggle button -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-bell-o"></i>
+                  <span class="label label-danger">10</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">You have 10 notifications</li>
+                  <li>
+                    <!-- Inner Menu: contains the notifications -->
+                    <ul class="menu">
+                      <li><!-- start notification -->
+                        <a href="#">
+                          <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                        </a>
+                      </li><!-- end notification -->
+                    </ul>
+                  </li>
+                  <li class="footer"><a href="#">View all</a></li>
+                </ul>
+              </li>
+             
+              <!-- User Account Menu -->
+              <li class="dropdown user user-menu">
+                <!-- Menu Toggle Button -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <!-- The user image in the navbar-->
+                  <img src="../../plantillas/img/avatar5.png" class="user-image" alt="User Image">
+                  <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                  <span class="hidden-xs">Alexander Pierce</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <!-- The user image in the menu -->
+                  <li class="user-header">
+                    <img src="../../plantillas/img/avatar5.png" class="img-circle" alt="User Image">
+                    <p>
+                      Alexander Pierce - Web Developer
+                      <small>Member since Nov. 2012</small>
+                    </p>
+                  </li>
+               
+                  <!-- Menu Footer-->
+                  <li class="user-body">
+                    <div class="pull-left">
+                      <a href="#" class="btn btn-default">Config.</a>
+                    </div>
+                    <div class="pull-right">
+                      <a href="#" class="btn btn-default">Salir</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <!-- Control Sidebar Toggle Button -->
+              <li>
+                <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- /**************************** HEADER BARRA DE MENU SUPERIOR **************************** -->
+
+      <!-- **************************** BARRA LATERAL IZQUERDA **************************** -->
+      <aside class="main-sidebar">
+
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+
+          <!-- Sidebar user panel (optional) -->
+          <div class="user-panel">
+            <div class="pull-left image">
+              <img src="../../plantillas/img/avatar5.png" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+              <p>Daniel Guaycha</p>
+              <!-- Status -->
+              <a>Administrador Root</a>
+            </div>
+          </div>
+
+          <!-- Sidebar Menu -->
+          <ul class="sidebar-menu">
+            <li class="header">OPCIONES</li>
+            <!-- Optionally, you can add icons to the links -->
+
+            <li class="treeview">
+              <a href="#"><i><span class="int-file295" ></span></i> <span>Teoria</span> <i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li><a href="#">Insertar</a></li>
+                <li><a href="#">Modificar/Eliminar</a></li>
+              </ul>
+            </li>
+            
+            <li class="treeview">
+              <a href="#"><i><span class="int-videoplayer82"></span></i> <span>Videos</span> <i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li><a href="#">Insertar</a></li>
+                <li><a href="#">Modificar/Eliminar</a></li>
+              </ul>
+            </li>
+            
+            <li class="treeview">
+              <a href="#"><i><span class="int-openbook6"></span></i> <span>Libros</span> <i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li><a href="#">Insertar</a></li>
+                <li><a href="#">Modificar/Eliminar</a></li>
+              </ul>
+            </li>
+          </ul><!-- /.sidebar-menu -->
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+      <!--/ ****************************  BARRA LATERAL IZQUIERDA ****************************-->
+
+      <!-- **************************** CONTENIDO DE LA PAGINA **************************** -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>
+            Teorias
+          </h1>
+          <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i>Teorias</a></li>
+            <li class="active">Insertar</li>
+          </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+
+         <div class="row">
+             <div class="col-md-12">
+                
+                 <div class="box box-default centeredpanel">
+                   
+                    <div class="box-header">
+                      <h3 class="box-title">Integrapp <small> - Manejo de teorias</small></h3>                      
+                    </div>
+                    <!-- form contenido -->
+                    <div class="box-body pad">
+                    
+                       <div class="alert alert-info alert-dismissable">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        <h4><i class="icon fa fa-info"></i> Aviso!</h4>
+                        Porvafor asegurese de completar todos los campos.
+                       </div>
+                       
+                    <form class="form" id="form_new_post" name="frm-publicar" method="post" action="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Titulo:</label>
+                                    <br>
+                                    <input type="text" class="form-control" name="titulo" placeholder="Ingrese un titulo corto" id="titulo" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Tipo:</label>
+                                    <select class="form-control" name="tipo" id="tipo">
+                                        <option value="calculo_integral">Cálculo integral</option>
+                                        <option value="calculo_difirencial">Cálculo diferencial</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <label>Descripcion</label><br>
+                            <textarea rows="5" cols="80" class="form-control" name="descripcion" id="descripcion" required placeholder="Escribe aqui una corta descripcion . . ."></textarea><br>
+                            <label>Contenido de la teoria</label>
+                            <br>
+                            <textarea name="contenido" id="contenido" rows="30" cols="80" required></textarea>
+                            <br>
+                            <label>Citas</label><br>
+                            <textarea rows="5" name="citas" class="form-control"></textarea>
+                            <label>Referencias</label><br>
+                            <textarea rows="5" name="referencias" class="form-control"></textarea><br>
+                            <div class="msg_err"></div>
+                            <center>
+                            <input type="submit" value="Guardar" class="btn btn-primary">
+                            <input type="button" value="Limpiar" class="btn btn-success">
+                            </center>
+                        </form>
+                    </div>
+                     
+                 </div>
+             </div>
+         </div>
+
+        </section><!-- /.content -->
+      </div>
+      <!-- /. **************************** END CONTENIDO DE LA PAGINA **************************** -->
+
+
+      <!-- **************************** BARRA DE CONTROL DERECHA **************************** -->
+      <aside class="control-sidebar control-sidebar-dark">
+        <!-- Create the tabs -->
+        <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+          <li class="active"><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
+          <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <!-- Home tab content -->
+          <div class="tab-pane active" id="control-sidebar-home-tab">
+            <h3 class="control-sidebar-heading">Actividades Recientes</h3>
+            <ul class="control-sidebar-menu">
+              <li>
+                <a href="#">
+                  <i class="menu-icon fa fa-check-circle-o bg-red"></i>
+                  <div class="menu-info">
+                    <h4 class="control-sidebar-subheading">Nueva Propuesta</h4>
+                    <p>22/12/16</p>
+                  </div>
+                </a>
+              </li>
+            </ul><!-- /.control-sidebar-menu -->
+          </div><!-- /.tab-pane -->
+          
+          
+          
+          <!-- Stats tab content -->
+          <div class="tab-pane" id="control-sidebar-stats-tab">Tabla de Control</div><!-- /.tab-pane -->
+          <!-- Settings tab content -->
+          <div class="tab-pane" id="control-sidebar-settings-tab">
+            <form method="post">
+              <h3 class="control-sidebar-heading">Configuraciones Generales</h3>
+              <div class="form-group">
+                <label class="control-sidebar-subheading">
+                  Aviso!
+                  <input type="checkbox" class="pull-right" checked>
+                </label>
+                <p>
+                  Estamos trabajando duro para traerte el panel de configuración completo.
+                  <br>Regresa mas tarde . .!
+                </p>
+              </div><!-- /.form-group -->
+            </form>
+          </div><!-- /.tab-pane -->
+        </div>
+      </aside><div class="control-sidebar-bg"></div>
+      </div>
+
+      <!-- **************************** ./END  BARRA DE CONTROL DERECHA **************************** -->
+
+      <!-- REQUIRED JS SCRIPTS -->
+
+      <!-- jQuery-->
+      <script src="../../plantillas/js/jquery-1.11.3.min.js"></script>
+      <!-- Bootstrap-->
+      <script src="../../plantillas/js/bootstrap.min.js"></script>
+      <!-- INTEGRAPP -->
+      <script src="../../plantillas/js/app.js"></script>
+       <!-- PROPUPS NOTIFICACIONES -->
+      <script type="text/javascript" src="../../plantillas/js/jquery.gritter.min.js"></script>
+      <!-- CK EDITOR - CONDICIONAL -->
+      <script type="text/javascript" src="../../../plantillas/lib/ckeditor.js"></script>
+
+      <script type="text/javascript">
+          $(document).ready(function () {
+               CKEDITOR.replace( 'contenido' );
+          });
+      </script>
+
+      <script type="text/javascript">
+          function msg(titulo, mensaje, tiempo, index) {
+              var a = ["../../plantillas/img/notificacion/confirm.png", "", ""];
+
+              var unique_id = $.gritter.add({
+                  // (string | mandatory) the heading of the notification
+                  title: titulo,
+                  // (string | mandatory) the text inside the notification
+                  text: mensaje,
+                  // (string | optional) the image to display on the left
+                  image: a[index],
+                  // (bool | optional) if you want it to fade out on its own or just sit there
+                  sticky: true,
+                  // (int | optional) the time you want it to be alive for before fading out
+                  time: '',
+                  // (string | optional) the class name you want to apply to that specific message
+                  class_name: 'my-sticky-class'
+              });
+              setTimeout(function() {
+                  $.gritter.remove(unique_id, {
+                      fade: true,
+                      speed: 'slow'
+                  });
+
+              }, tiempo)
+          }
+      </script>
+  </body>
+</html>

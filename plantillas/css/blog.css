@@ -1,0 +1,707 @@
+@import url('admin.css');
+@import url('fontello.css');
+body,
+html {
+    background: #f7f7f7;
+    height: auto;
+    font-size: 16px;
+}
+/* diseño del header*/
+.pad{
+        padding: 50px;
+}
+header.header {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .3);
+    z-index: 100;
+}
+header.header>nav {
+    background: #fff;
+    height: 50px;
+}
+#simbol,
+#form_search,
+#data_user {
+    display: inline-block;
+}
+
+#simbol {
+    box-sizing: content-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    width: 20px;
+}
+/*formatear con el simbolo I*/
+
+.pacifico {
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 15px;
+}
+#form_search {
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    margin: 0 auto;
+    left: 40px;
+    position: relative;
+    top: -7px;
+    height: 50px;
+}
+#form_search>input {
+    border: none;
+    border-left: 1px solid #ccc;
+    width: 450px;
+    height: 46px;
+    position: relative;
+    top: 4px;
+    padding-left: 23px;
+    font-size: 14px;
+}
+#form_search>input:focus {
+    border: none;
+    outline: none;
+    border-right: 1px solid #00BCD4;
+}
+.content_user_menu {
+    width: 180px;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    right: 0;
+}
+#data_user {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    height: 50px;
+    width: 50px;
+}
+#data_user>div {
+    margin: 0 auto;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+    position: relative;
+    top: 7px;
+    bottom: 0;
+}
+#data_user>div>i {
+    position: relative;
+    top: 5px;
+    left: 2px;
+    font-style: italic;
+}
+/* diseño aside*/
+
+aside.aside {
+    position: fixed;
+    left: 0;
+    top: 50px;
+    height: 100%;
+    width: 60px;
+    background: #2f323a;
+    z-index: 101;
+}
+.menu_content {
+    position: relative;
+    top: 60px;
+}
+ul.menu li {
+    position: relative;
+    left: -40px;
+    width: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+ul.menu>li>a {
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 16px;
+}
+
+
+.body {
+    width: calc(100% - 58px);
+    position: relative;
+    display: block;
+    top: 50px;
+    left: 56px;
+    background: #f7f7f7;
+    z-index: 50;
+    overflow: hidden;
+}
+.body-teorias{
+    width: calc(100% - 58px);
+    position: relative;
+    display: block;
+    margin-top: 50px;
+    left: 56px;
+}
+
+.body-2{
+    width: calc(100% - 58px);
+    position: relative;
+    top: 50px;
+    display: block;
+    left: 58px;
+    background: #fff;
+    padding: 50px;
+    overflow: hidden;
+}
+.body-3{
+    width: calc(100% - 58px);
+    position: relative;
+    top: 50px;
+    display: block;
+    left: 58px;
+    padding: 20px;
+}
+/*
+| * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  |
+|                                                              |
+|    Diseño de las teorias :D                                  |
+|                                                              |
+| * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  |
+*/
+.contenedor-paginacion{
+    padding: 50px;
+    height: 100%;
+    width: 100%;
+    float: left;
+    background: white;
+}
+.lista-resultados>li{
+    padding: 10px;
+    list-style: none;
+}
+.lista-resultados>li>a{
+    font-size: 18px;
+    color: #3F51B5;
+    text-decoration: none;
+}
+.lista-resultados>li>span{
+    line-height: 5px;
+}
+.link-title{
+    font-size: 12px;
+    text-decoration: underline;
+    color: green;
+}
+
+.contenido {
+    padding: 50px;
+    height: 100%;
+    width: 70%;
+    float: left;
+    min-height: 925px;
+    background: white;
+}
+.contenido .teoria p {
+    text-align: justify;
+}
+/* Informacion panel lateral*/
+
+.informacion #sugerencias {
+    box-sizing: border-box;
+    padding-left: 15px;
+    position: relative;
+    top: 30px;
+    text-align: left;
+}
+.informacion #sugerencias h5 {
+    color: #c8c8c8;
+    font-size: 16px;
+}
+.informacion #sugerencias li {
+    list-style: none;
+}
+.informacion #sugerencias li a {
+    text-decoration: underline;
+    color: #00BCD4;
+}
+.panels-content {
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+}
+.titulos_content {
+     position: absolute;
+    right: 0px;
+    top: 3px;
+    width: 300px;
+}
+.titulos_content button {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 28px;
+}
+.fuentes_informacion {}
+/* 
+| * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  |
+|                                                              |
+|    Login desing - - - - - -                                  |
+|                                                              |
+| * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  |
+*/
+
+.login_content {
+    position: relative;
+    margin: 0 auto;
+    padding: 50px;
+    top: calc(50% - 200px);
+    width: 70%;
+    background: white;
+    -webkit-box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .3);
+}
+.login_content form input {
+    margin-top: 10px;
+}
+/*END LOGIN DESING*/
+
+/* ADMIN PANEL DESING*/
+
+/*New and other*/
+
+.container-fluid {
+    z-index: 50;
+}
+.menu_selec {} .menu_selec>li {
+    display: inline-block;
+    padding: 10px;
+}
+.menu_selec>li>a {
+    display: block;
+    padding: 10px;
+    color: #90A4AE;
+    text-decoration: none;
+}
+.menu_selec>li>a.active {
+    border-bottom: 4px solid #00BCD4;
+    color: #000;
+}
+.form-group {
+    padding: 30px;
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+}
+/*delete*/
+
+.delete-container {
+    width: 80%;
+    padding: 50px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .3);
+}
+.delete-container form {
+    width: 400px;
+}
+.form-video-control{
+    position: relative;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+	background:#fff;
+	 -webkit-box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .3);
+}
+/*  END ADMIN PANEL DESING*/
+
+/*
+| * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  |
+|                                                              |
+|    Video desing . .  . . . . .                               |
+|                                                              |
+| * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  |
+*/
+
+.contenido_videos {
+    padding: 50px;
+    height: 100%;
+    width: 100%;
+    float: left;
+    background: white;
+}
+#forma_visual {
+    position: fixed;
+    width: 75px;
+    z-index: 100;
+    top: 50px;
+    right: 0;
+    background: rgba(47, 50, 58, .7);
+}
+#forma_visual ul {
+    padding-left: 20px;
+    padding-top: 5px;
+    overflow: hidden;
+    width: 110px;
+}
+#forma_visual ul li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+}
+#forma_visual ul li a {
+    color: #fff;
+    padding: 0px;
+}
+/*Video galeria*/
+
+.contenedor-videos {
+    overflow: hidden;
+}
+.content-video {
+    -webkit-box-shadow: 1px 1px 11px 1px rgba(255, 112, 67, .3);
+    box-shadow: 1px 1px 11px 1px rgba(255, 112, 67, .3);
+}
+.img-panel-video {
+    background-color: #FF7043;
+    height: 200px;
+    width: 100%;
+}
+.img-panel-video>a {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    height: 200px;
+    line-height: 200px;
+    color: #fff;
+}
+.video-title {
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    min-height: 60px;
+}
+.content-book {
+    -webkit-box-shadow: 1px 1px 11px 1px rgba(77, 182, 172, .3);
+    box-shadow: 1px 1px 11px 1px rgba(77, 182, 172, .3);
+}
+.img-panel-book {
+    height: 200px;
+    width: 100%;
+}
+.img-panel-book > a.img-panel-nohover {
+    display: block;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    height: 200px;
+    line-height: 200px;
+    color: #fff;
+    background-image: url(../img/libros.png);
+    background-color: #4DB6AC;
+    -webkit-transition: all .2s ease-in-out;
+}
+.closeHover {
+    opacity: 0 !important;
+}
+.openHover {
+    opacity: 1 !important;
+}
+.img-panel-book > a.img-panel-hover {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    height: 200px;
+    line-height: 200px;
+    background-color: rgba(253, 249, 249, 0.88);
+    margin-top: -200px;
+    opacity: 0;
+}
+.img-panel-book > a.img-panel-hover span {
+    box-sizing: content-box;
+    margin: 5px;
+    padding: 10px;
+    width: 70px;
+    border-radius: 7px;
+    background-color: #4DB6AC;
+    color: #fff;
+}
+.img-panel-book-hover {
+    background-color: rgba(77, 182, 172, .8);
+    height: 200px;
+    width: 100%;
+}
+footer {
+    padding: 20px;
+    clear: both;
+    position: relative;
+    top: 50px;
+    width: calc(100% - 60px);
+    left: 60px;
+}
+/*
+| * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  |
+|                                                              |
+|    FLAT UI DESING OTHERS CLASS                               |
+|                                                              |
+| * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  |
+*/
+
+.img-comment {
+    margin: 24px 0;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.2;
+}
+/*Notificaciones*/
+
+.navbar-unread,
+.navbar-new {
+    position: absolute;
+    top: 35%;
+    right: 12px;
+    z-index: 10;
+    width: 6px;
+    height: 6px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 0;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    background-color: #1abc9c;
+    border-radius: 50%;
+    /*<span class="navbar-new">2</span>*/
+}
+/*Diseño de los paneles de informacion*/
+
+.content-panel {
+    background: #ffffff;
+    box-shadow: 0px 3px 2px #aab2bd;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.content-panel h4 {
+    margin-left: 10px;
+}
+/* BLOG PANEL */
+
+#blog-bg {
+    font-size: 12px;
+    background: url(../img/Teorias/blog-bg.jpg) no-repeat center top;
+    margin-top: -15px;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 150px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#blog-bg .badge {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
+.badge-popular {
+    background: #3498db;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 100%;
+}
+.blog-title {
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 100px;
+    padding: 6px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    display: block;
+    width: 120px;
+}
+.blog-text {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+/*Panel #2*/
+
+.product-panel-2 {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+.product-panel-2 .badge {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
+.badge-hot {
+    background: #e74c3c;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    border-radius: 100%;
+}
+.mt {
+    margin-top: 25px;
+}
+.mb {
+    margin-bottom: 25px;
+}
+#profile-01 {
+    background: url(../img/Teorias/maths-ftr.jpg) no-repeat center top;
+    margin-top: -15px;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 150px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#profile-01 h3 {
+    color: white;
+    padding-top: 50px;
+    margin: 0px;
+    text-align: center;
+}
+#profile-01 h6 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+.profile-01 {
+    background: #68dff0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+.profile-01:hover {
+    background: #2f2f2f;
+    -webkit-transition: background-color 0.6s;
+    -moz-transition: background-color 0.6s;
+    -o-transition: background-color 0.6s;
+    transition: background-color 0.6s;
+    cursor: pointer;
+}
+.profile-01 p {
+    color: white;
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 15px;
+}
+/*Panel Size*/
+
+.pn {
+    height: 250px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.pn:hover {
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
+}
+/*Helpers*/
+
+.centered {
+    text-align: center;
+}
+.pad{
+    padding: 50px;
+}
+.Teorias-color-bg {
+    background: #00BCD4 !important;
+    border-color: #00BCD4 !important;
+}
+.Teorias-color-border {
+    border-color: #00BCD4 !important;
+}
+.btxt-color-Teorias {
+    border-color: #00BCD4;
+    color: #00BCD4;
+}
+.Videos-color-bg {
+    background: #ef5350 !important;
+    border-color: #ef5350 !important;
+}
+.Videos-color-border {
+    border-color: #ef5350 !important;
+}
+.btxt-color-Videos {
+    border-color: #ef5350;
+    color: #ef5350;
+}
+.Administrador-color-bg {
+    background: #66BB6A !important;
+}
+.btxt-color-Administrador {
+    border-color: #66BB6A !important;
+    color: #66BB6A;
+}
+/*Libros colors*/
+
+.Libros-color-bg {
+    background: #26A69A !important;
+    border-color: #26A69A !important;
+}
+.btxt-color-Libros {
+    border-color: #26A69A;
+    color: #26A69A;
+}
+
+/*ejercicio content*/
+.ejercicio-content{
+    border-top: 2px solid #3c8dbc;
+    margin-top: 10px;
+    min-height: 60px;
+    padding: 50px;
+}
+.ejercicio-content  input[type=text]{
+    padding: 7px;
+    font-size: 18px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    }
+.bx{
+position: fixed !important;
+width: 420px !important;
+bottom: -28px;
+height: 300px;
+right: 85px;
+}

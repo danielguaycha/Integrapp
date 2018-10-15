@@ -1,0 +1,92 @@
+
+<html>
+<head>
+    <title>Web page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../plantillas/css/blog.css">
+</head>
+
+<body>
+
+        <header class="header">
+            <nav>
+                <span id="simbol" class="Administrador-color-bg"><p>I</p></span>
+                <form id="form_search">
+                    <input type="search" placeholder="Buscar contenidos ...">
+                </form>
+                <div class="content_user_menu">
+                <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="data_user">
+                    <div class="btxt-color-Administrador"><i class="demo-icon icon-user"></i>
+                    </div>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a>
+                    </li>
+                    <li><a href="#">Another action</a>
+                    </li>
+                    <li><a href="#">Something else here</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a>
+                    </li>
+                </ul>    
+                </div>
+                
+            </nav>
+        </header>
+        
+        
+        <aside class="aside" role="menu">
+            <div class="menu_content">
+                <ul class="menu">
+                    <li><a href="" data-toggle="tooltip" data-placement="right" title="Ejercicios" class="icon_menu"><span class="int-mathematics21"></span></a>
+                    </li>
+                    <li><a href="" data-toggle="tooltip" data-placement="right" title="Toeria" class=" icon_menu"><span class="int-file295" ></span></a>
+                    </li>
+                    <li><a href="" data-toggle="tooltip" data-placement="right" title="Tutoriales" class="icon_menu"><span class="int-videoplayer82"></span></a>
+                    </li>
+                    <li><a href="" data-toggle="tooltip" data-placement="right" title="Libros" class="icon_menu"><span class="int-openbook6"></span></a>
+                    </li>
+
+                </ul>
+            </div>
+        </aside>
+
+    <div class="body">
+        
+       <div class="login_content">
+            <center><span><i class="demo-icon icon-user-outline"></i> LOGIN </span></center><br>
+            <form action="">
+               <label for="user">Usuario: </label>
+                <input type="email" class="form-control" required placeholder="Usuario" name="user"><br>
+                <label for="password">Password: </label>
+                <input type="password" class="form-control" placeholder="Su contaseña" name="password"><br>
+                <input type="submit" value="Ingresar" class="btn btn-success" >
+            </form>
+            <div class="alert alert-warning alert-dismissible" role="alert">
+	  				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	  				<strong>Atención! </strong>Solo puedes logearte si eres un Administrador, Si quieres saber más clic <a href="#">aqui</a>.</div>
+
+        </div>
+        
+    </div>
+
+    <script type="text/javascript" src="../../plantillas/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../plantillas/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.icon_menu').tooltip();
+        });
+    </script>
+</body>
+
+</html>
+
+
+<!--
+                <a id="">
+                    <div><i class="demo-icon icon-user"></i>
+                    </div>
+                </a>
+-->

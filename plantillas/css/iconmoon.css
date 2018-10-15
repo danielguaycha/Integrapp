@@ -1,0 +1,162 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?10so8t');
+	src:url('../fonts/icomoon.eot?10so8t#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?10so8t') format('truetype'),
+		url('../fonts/icomoon.woff?10so8t') format('woff'),
+		url('../fonts/icomoon.svg?10so8t#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="int-"], [class*=" int-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.int-bells9:before {
+	content: "\e900";
+}
+.int-blackboard22:before {
+	content: "\e901";
+}
+.int-cloud118:before {
+	content: "\e902";
+}
+.int-computerscreen47:before {
+	content: "\e903";
+}
+.int-document288:before {
+	content: "\e904";
+}
+.int-document328:before {
+	content: "\e905";
+}
+.int-eyes31:before {
+	content: "\e906";
+}
+.int-facebook44:before {
+	content: "\e907";
+}
+.int-facebook51:before {
+	content: "\e908";
+}
+.int-facebook54:before {
+	content: "\e909";
+}
+.int-file295:before {
+	content: "\e90a";
+}
+.int-function:before {
+	content: "\e90b";
+}
+.int-google115:before {
+	content: "\e90c";
+}
+.int-google-plus:before {
+	content: "\e90d";
+}
+.int-harddisc:before {
+	content: "\e90e";
+}
+.int-home248:before {
+	content: "\e90f";
+}
+.int-laptop133:before {
+	content: "\e910";
+}
+.int-laptopcomputer8:before {
+	content: "\e911";
+}
+.int-library55:before {
+	content: "\e912";
+}
+.int-link92:before {
+	content: "\e913";
+}
+.int-mathematics21:before {
+	content: "\e914";
+}
+.int-maths70:before {
+	content: "\e915";
+}
+.int-maths81:before {
+	content: "\e916";
+}
+.int-mobilephone16:before {
+	content: "\e917";
+}
+.int-openbook6:before {
+	content: "\e918";
+}
+.int-padlock101:before {
+	content: "\e919";
+}
+.int-pencil78:before {
+	content: "\e91a";
+}
+.int-pi4:before {
+	content: "\e91b";
+}
+.int-play126:before {
+	content: "\e91c";
+}
+.int-programminglanguage1:before {
+	content: "\e91d";
+}
+.int-purse12:before {
+	content: "\e91e";
+}
+.int-rubbish12:before {
+	content: "\e91f";
+}
+.int-search67:before {
+	content: "\e920";
+}
+.int-sitemap1:before {
+	content: "\e921";
+}
+.int-social-network4:before {
+	content: "\e922";
+}
+.int-socialnetwork344:before {
+	content: "\e923";
+}
+.int-squareroot:before {
+	content: "\e924";
+}
+.int-stop15:before {
+	content: "\e925";
+}
+.int-teacher24:before {
+	content: "\e926";
+}
+.int-tool708:before {
+	content: "\e927";
+}
+.int-twitter:before {
+	content: "\e928";
+}
+.int-twitter46:before {
+	content: "\e929";
+}
+.int-videoplayer82:before {
+	content: "\e92a";
+}
+.int-web64:before {
+	content: "\e92b";
+}
+.int-web-programming:before {
+	content: "\e92c";
+}
+
